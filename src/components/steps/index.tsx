@@ -1,12 +1,12 @@
 import { IconMapPin, IconQrcode, IconTicket } from "@tabler/icons-react-native";
 import { Text, View } from "react-native";
-import { Step } from "../step";
-import { style } from "./styles";
+import { Step } from "@/components/step";
+import { styles } from "./styles";
 
 export function Steps() {
   return (
-    <View style={style.container}>
-      <Text style={style.title}>Veja como funciona:</Text>
+    <View style={styles.container}>
+      <Text style={styles.title}>Veja como funciona:</Text>
       <Step
         icon={IconMapPin}
         title="Encontre estabelecimentos"
