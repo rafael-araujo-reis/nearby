@@ -1,6 +1,6 @@
-import { Text, useWindowDimensions, View } from "react-native";
+import { Text, useWindowDimensions } from "react-native";
+import { Place, PlaceProps } from "../place";
 import { styles } from "./styles";
-import { PlaceProps, Place } from "../place";
 
 import BottomSheet, { BottomSheetFlatList } from "@gorhom/bottom-sheet";
 import { useRef } from "react";

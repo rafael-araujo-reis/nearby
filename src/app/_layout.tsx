@@ -1,6 +1,5 @@
 import { Loading } from "@/components/loading";
 import { colors } from "@/styles/theme";
-import { GestureHandlerRootView } from "react-native-gesture-handler";
 import {
   Rubik_400Regular,
   Rubik_500Medium,
@@ -9,6 +8,7 @@ import {
   useFonts,
 } from "@expo-google-fonts/rubik";
 import { Stack } from "expo-router";
+import { GestureHandlerRootView } from "react-native-gesture-handler";
 
 export default function Layout() {
   const [fontsLoaded] = useFonts({

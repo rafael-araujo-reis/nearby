@@ -1,13 +1,13 @@
+import { colors } from "@/styles/colors";
+import { IconTicket } from "@tabler/icons-react-native";
 import {
-  View,
-  TouchableOpacity,
-  TouchableOpacityProps,
   Image,
   Text,
+  TouchableOpacity,
+  TouchableOpacityProps,
+  View,
 } from "react-native";
 import { styles } from "./styles";
-import { IconTicket } from "@tabler/icons-react-native";
-import { colors } from "@/styles/colors";
 
 export type PlaceProps = {
   id: string;

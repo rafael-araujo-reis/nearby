@@ -1,9 +1,9 @@
-import { Alert, Text, View } from "react-native";
-import { api } from "@/services/api";
-import { useEffect, useState } from "react";
 import { Categories, CategoriesProps } from "@/components/categories";
 import { PlaceProps } from "@/components/place";
 import { Places } from "@/components/places";
+import { api } from "@/services/api";
+import { useEffect, useState } from "react";
+import { Alert, View } from "react-native";
 
 type MarketsProps = PlaceProps & {};
 
